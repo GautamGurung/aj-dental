@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>blog post</title>
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="images/ajdentallogo copy.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"     onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>BLOG</h1>
+    </section>
+
+    <!-- blog pages-contant÷ -->
+<section class="blog-content">
+
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/main.jpeg">
+        <h2>Family Review</h2>
+        <p>This has got to be the best dentist my kids and I have ever experienced. The staff is very polite and they are always willing to help and answer questions if necessary. My daughter is getting the Invisalign and preparation went smoothly. <br>
+            <br>
+        It’s Very clean and every one is happy to see you and help you with a big smile. I love it!! Courtney is my hygienist and she is so awesome and helpful, I’m so happy and glad she referred me to Aj Dental Clinic, I absolutely have no worries when I come in. Thank you so much for being the best for my children and I. We really appreciate the hospitality </p>
+        
+
+            <br>
+
+            <img src="images/bj.jpeg">
+            <h2>Patients Happiness</h2>
+            <p>The service at Aj Dental Clinic was amazing: I was there for an emergency appointment regarding a wisdom tooth and the related pain. The dentist and the nurse did the routine procedure by taking x-rays and checking the teeth;<br>
+                <br>
+                however, they also provided cleaning of the tooth and a further check of the gum. I was esthatic that they took action immediately and went much beyond expectations both by including cleaning and gum checking and by providing a very high quality service. I have felt very comfortable and very relaxed.<br>
+                <br>
+                Last but not least, the staff at the reception is very friendly and competent. Covid safety procedures are well respected and enforced; hygiene conditions are of the highest possible standard.
+                Overall, a wonderful experience, which relieved both my physical pain and my spirit!</p>
+        
+
+                <br>
+
+                <img src="images/bg.jpeg">
+                <h2>Personal Review</h2>
+                <p>Could not ask for a better first visit at a new dentist. The entire staff was fantastic; Emily at the front desk spoke with me several times and was able to get me in very quickly. Courtney the hygienist was phenomenal; great with communicating the process and her thoughts on my dental health, gentle during the cleaning and all around great company. <br>
+                 <br>   
+
+                Dr.Aj Parsad  Gupata. was great in the exam and discussing her plan. No products were sold to me or pitched. The only thing advised was a fluoride mouthwash that could be purchased at any store and I was given a coupon for it. Competitive pricing which I was relieved to see and zero need to seek a second opinion. I usually don’t look forward to future dental visits, but I will be happy to visit Southern Family Dental again and highly recommend them. </p>        
+
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="visit-bt red-btn">POST COMMENT</button>
+            </form>
+        </div>
+      
+
+
+    </div>
+<div class="blog-right">
+        <h3>Post Categories</h3>
+    <div>
+        <span>Patients Review</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Surgery</span>
+        <span>57</span>
+    </div>
+    <div>
+        <span>cosmetic-restoration</span>
+        <span>78</span>
+    </div>
+    <div>
+        <span>implant-dentistry</span>
+        <span>253</span>
+    </div>
+</div>
+</section>
+   
+<!-- footer-secationn÷ -->
+
+<section class="footar">
+    <h3>About Us</h3>
+    <p>For more information visit Aj Dental Clinic or contact us on our Gamil-id ajaygupta98450@gmail.com).
+    </p>
+    <div class="icon">
+        <i class=" fa fa-facebook"></i>
+        <i class=" fa fa-twitter"></i>
+        <i class=" fa fa-instagram"></i>
+        <i class=" fa fa-linkedin"></i>
+    </div>
+    <p>Copyright &copy; Aj Dental clinic and GG .pvt.ltd Inc.All Right  Reserved.</p>
+</section>
+    <!-- javascripit for toggle menu -->
+
+ <script>
+     var navLinks =document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>

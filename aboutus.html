@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>about us</title>
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="images/ajdentallogo copy.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"     onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <!-- about-us-pagess÷ -->
+
+    <section class="information">
+
+        <div class="row">
+            <div class="dr-detials">
+                <h1> Dr Details</h-> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, amet at. Eligendi mollitia eos, ex sequi, culpa, commodi deleniti quisquam corporis cum nemo aut?</p>
+             </div>
+             <div class="dr-detials">
+                 <img src="images/ajya2.jpeg">    
+             </div>
+
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+               <h1> About Us</h1> 
+               <p>
+
+                At Aj dental Clinic is one of Nepal first official licensed specialized dental hospital. We focus and specialize purely on the dedicated areas for dentistry.<br>
+                <br>
+                Our dentist team comprises of top tier dental specialists team that include international speakers and professors at dental universities. Many of our dentists are American board cerified and graduates from USA, UK,Bangladesh Australia, Europe and other parts of the world.<br>
+                 <br>
+                A full fledge of comprehensive dental treatment services is treated by our specialists. In additional to standard primary care commonly provided at dental care clinics, our dental clinic in Kathmandu offers in-patient care on full arch dental implant treatments and major oral surgery cases using operating theatres under oral sedation. Aj dental health clinic Always welcome You..
+                </p>
+               <a href="services.html"  class="visit-bt red-btn">explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/hero_bg_2.jpg">    
+            </div>
+        </div>
+    </section>
+     
+   
+<!-- footer-secationn÷ -->
+
+<section class="footar">
+    <h3>About Us</h3>
+    <p>For more information visit Aj Dental Clinic or contact us on our Gamil-id (ajaygupta98450@gmail.com).
+    </p>
+    <div class="icon">
+        <i class=" fa fa-facebook"></i>
+        <i class=" fa fa-twitter"></i>
+        <i class=" fa fa-instagram"></i>
+        <i class=" fa fa-linkedin"></i>
+    </div>
+    <p>Copyright &copy; Aj Dental clinic and GG .pvt.ltd Inc.All Right  Reserved.</p>
+</section>
+    <!-- javascripit for toggle menu -->
+
+ <script>
+     var navLinks =document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
